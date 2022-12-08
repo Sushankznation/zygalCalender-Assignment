@@ -101,7 +101,7 @@ const months = [
       .join("");
   
     let yearsOptions = ""; 
-    for (year = 1900; year < 2050; year += 1) {
+    for (let year = 1900; year < 2050; year += 1) {
       yearsOptions += `<option value="${year}">${year}</option>`;
     }
     document.getElementById("year-select").innerHTML = yearsOptions;
