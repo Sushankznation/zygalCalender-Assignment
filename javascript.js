@@ -27,7 +27,7 @@ const months = [
   const createCalandarObject = function (totalDays, firstDay) {
     //All things have been set to default initially 
     const defaultWeekDays = [false, false, false, false, false, false, false];
-    // we taken the array and spread it to have the elemnent consecutively spreaded
+    // we taken the array and spread it to have the elemnent spreaded
     const calandarObject = [[...defaultWeekDays]];
     let dayIndex = firstDay;
     let weekIndex = 0;
